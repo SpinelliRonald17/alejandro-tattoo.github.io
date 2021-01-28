@@ -15,7 +15,7 @@ header{
     width: 100%;
     height: 80px;
     background: white;
-    box-shadow: 0 4px 25px -22px black;
+    box-shadow: 10px 0 30px 20px rgba(3, 3, 3, 0.418);
     z-index: 10;
 }
 /* Ajustes de barra para centarlos */
@@ -321,6 +321,7 @@ header{
     padding: 40px 0;
     background-color: #f5d6d6f7;
     margin-top: 40px;
+    box-shadow: 10px 0 30px 20px rgba(3, 3, 3, 0.418);
 }
 
 .container-footer footer{

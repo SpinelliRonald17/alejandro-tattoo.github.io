@@ -19,7 +19,7 @@ header{
     width: 100%;
     height: 80px;
     background: white;
-    box-shadow: 0 4px 25px -22px black;
+    box-shadow: 10px 0 30px 20px rgba(3, 3, 3, 0.418);
     z-index: 2;
 }
 /* Ajustes de barra para centarlos */
@@ -78,6 +78,7 @@ header{
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
 
 /*  Clase para seleccion Barra sobre menu de seleccion*/
@@ -225,7 +226,7 @@ article{
     width: 100%;
     padding: 20px;
     padding-bottom: 40px;
-    box-shadow: -10px 0 20px -20px black;
+    box-shadow: -10px 0 30px -20px black;
     border-radius: 6px;
     position: relative;
     overflow: hidden;
@@ -254,7 +255,7 @@ article h1{
 article p{
     margin-top: 20px;
     font-size: 18px;
-    color:rgb(44, 38, 38);
+    color:rgb(44, 42, 42);
 }
 
 /* Estilo de la imagen */
@@ -268,7 +269,7 @@ article img{
 
 .container-aside aside{
     width: 320px;
-    box-shadow: 0 0 20px -20px black;
+    box-shadow: 0 0 30px -20px black;
     border-radius: 6px;
     overflow: hidden;
     margin-left: 40px;
@@ -394,6 +395,7 @@ article img{
     padding: 40px 0;
     background-color: #f5d6d6f7;
     margin-top: 40px;
+    box-shadow: 10px 0 20px 20px rgba(3, 3, 3, 0.418);
 }
 
 .container-footer footer{
