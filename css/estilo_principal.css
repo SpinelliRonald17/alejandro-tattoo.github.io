@@ -542,6 +542,14 @@ article img{
         max-width: 300px;
         margin: 10px;
     }
+
+    .header-content .logo h1{
+        font-size: 30px;
+    }
+         
+    .header-content .logo b{
+        font-size: 30px;
+    }
 }
 
 /* Responsive completo pequeño  */
@@ -623,6 +631,14 @@ article img{
     .menu nav ul li :hover{
         color: white;
       }
+
+    .header-content .logo h1{
+        font-size: 30px;
+    }
+         
+    .header-content .logo b{
+        font-size: 30px;
+    }
 
     #icon-menu{
         display: flex;
