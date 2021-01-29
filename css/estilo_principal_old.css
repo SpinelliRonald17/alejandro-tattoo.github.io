@@ -5,9 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    background: black;
 }
-
 
 a {
 	text-decoration: none;
@@ -20,8 +18,8 @@ header{
     left: 0;
     width: 100%;
     height: 80px;
-    background: black;
-    box-shadow: 0 10px 30px -18px rgb(243, 240, 193);
+    background: white;
+    box-shadow: 10px 0 30px 20px rgba(3, 3, 3, 0.418);
     z-index: 2;
 }
 /* Ajustes de barra para centarlos */
@@ -37,26 +35,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:red;
-    border-radius: 6px;
-   
 }
 /* Color del nombre */
-
- .logo h1 {
-   text-decoration:red; 
- }
-
-.logo h1 b{  
-    text-decoration: white; 
-} 
-
-.carousel-inner {
-    box-shadow: 0 10px 30px -18px rgb(243, 240, 193);
+.logo h1 b{
+   color: red;
 }
-
-
-/* Color del nombre */
 
 .logo h1:after {
     display: block;
@@ -64,18 +47,14 @@ header{
     bottom: -10px;
     width: 0;
     height: 2px;
-    background-color:white;
+    background-color:red;
     content: "";
     transition: width 0.2s;
-  }
-  
-.logo h1:hover {
-    color: white;
-  }
+}
   
 .logo h1:hover:after{
     width: 100%;
-  } 
+}
 
 /* Menu de interacion ir a */
 .menu{
@@ -99,6 +78,7 @@ header{
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
 
 /*  Clase para seleccion Barra sobre menu de seleccion*/
@@ -106,7 +86,7 @@ header{
     content: '';
     width: 100%;
     height: 4px;
-    background:red;
+    background: red;
     position: absolute;
     top: 0;
     left: 0;
@@ -114,15 +94,32 @@ header{
 
 /* Color de las letras del menu*/
 .menu nav ul li a{
-    color: red;
-    font-size: 20px;
+    color: #777777;
+    font-size: 18px;
     transition: color 300ms;
+    text-decoration: none;
 }
 /* Efecto de cambiar color al pasar por encima  */
 .menu nav ul li a:hover{
-   color: white;
+   color:red;
 }
 
+/* barra que se muestra al seleccionar */
+.menu nav ul li a:after{
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color:red;
+    content: "";
+    transition: width 0.2s;
+}
+
+
+.menu nav ul li a:hover:after{
+    width: 100%;
+}
 /* Clase para el color de letras */
 
 .menu .text-menu-selected{
@@ -143,20 +140,17 @@ header{
     top: 16px;
     padding: 10px;
     font-size: 20px;
-    background: white;
+    background: #f3f0f0fa;
     border-radius: 100%;
-    color: red;
+    color: #787878;
     display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-#icon-menu i{
-    background: white;
-}
-
 #icon-menu:hover{
+   color: rgb(248, 132, 132);
    opacity: 0.8;
 }
 
@@ -225,8 +219,6 @@ header{
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  color: white;
-  box-shadow: -10px 0 30px -20px rgb(255, 253, 253);
 }
 
 /* articulos */
@@ -234,11 +226,10 @@ article{
     width: 100%;
     padding: 20px;
     padding-bottom: 40px;
-    box-shadow: -10px 0 30px -20px rgb(255, 253, 253);
+    box-shadow: -10px 0 30px -20px black;
     border-radius: 6px;
     position: relative;
     overflow: hidden;
-    color:white;
 }
 
 /* Clase del articulo*/
@@ -264,14 +255,13 @@ article h1{
 article p{
     margin-top: 20px;
     font-size: 18px;
-    color: white;
+    color:rgb(44, 42, 42);
 }
 
 /* Estilo de la imagen */
 article img{
     width: 100%;
     margin-top: 20px;
-    box-shadow: 0 10px 30px -18px rgb(243, 240, 193);
 }
 
 
@@ -279,7 +269,7 @@ article img{
 
 .container-aside aside{
     width: 320px;
-    box-shadow: 0 10px 30px -18px rgb(243, 240, 193);
+    box-shadow: 0 0 30px -20px black;
     border-radius: 6px;
     overflow: hidden;
     margin-left: 40px;
@@ -307,15 +297,17 @@ article img{
     font-size: 16px;
     background: red;
     border: none;
-    color:white;
+    color: white;
     cursor: pointer;
     border-radius: 6px;
 }
 
 /* Efecto hover del boton */
 .container-aside aside button:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
+
+
 
 
 
@@ -324,11 +316,11 @@ article img{
 #button-up{
     width: 50px;
     height: 50px;
-    background: red;
+    background:red;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:white;
     border-radius: 50%;
     font-size: 20px;
     position: fixed;
@@ -341,7 +333,8 @@ article img{
 }
 
 #button-up i{
-    background: red;
+    background: white;
+    background:none;
 }
 
 #button-up:hover{
@@ -378,7 +371,7 @@ article img{
 }
 
 .container-redes a:hover img{
-    background: rgba(252, 249, 249, 0.918);
+    background: red;
 }
 
 
@@ -389,7 +382,6 @@ article img{
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-    box-shadow: -10px 0 30px -20px rgb(255, 253, 253);
 }
 
 
@@ -401,8 +393,9 @@ article img{
 .container-footer{
     width: 100%;
     padding: 40px 0;
-    background-color: black;
+    background-color: #f5d6d6f7;
     margin-top: 40px;
+    box-shadow: 10px 0 20px 20px rgba(3, 3, 3, 0.418);
 }
 
 .container-footer footer{
@@ -415,15 +408,14 @@ article img{
    text-align: center;
 }
 
-.container-footer footer .redes-footer a{
-    text-decoration: none;
-}
-
-
 /* Estilo del logo en el footer pie de pagina tamaño */
 .container-footer footer .logo-footer img{
-   width: 200px;
-   border-radius: 100%;
+   width: 100px;
+   border-radius: 500px;
+}
+
+.container-footer footer .redes-footer a{
+    text-decoration: none;
 }
 
 /* Estilo del logo en el footer pie de pagina redes centar*/
@@ -437,7 +429,7 @@ article img{
 .container-footer footer .redes-footer .icon-redes-footer{
   font-size: 20px;
   margin: 20px;
-  background: red;
+  background: #efefef;
   width: 50px;
   height: 50px;
   display: flex;
@@ -498,13 +490,13 @@ article img{
     margin-top: 20px;
     border: none;
     height: 2px;
-    background: red;
+    background: #747171;
 }
 
 .container-footer footer h4{
     text-align: center;
     margin-top: 40px;
-    color:white;
+    color: #1f1d1d;
     font-weight: 500px;
     font-size: 18px;
 }
@@ -566,7 +558,7 @@ article img{
         position: fixed;
         top: 80px;
         left: 0;
-        background: black;
+        background: white;
         overflow: hidden;
         transform: translateX(-350px);
         box-shadow: 10px 0 20px -25px black;
@@ -604,8 +596,7 @@ article img{
 
     .menu nav ul li a{
         margin-top: 40px;
-        color: red;
-        z-index: 1;
+        color: #858585;
     }
 
     .menu nav ul li a i{
@@ -613,16 +604,7 @@ article img{
         display: inline-block;
         margin-right: 10px;
         color: red;
-        z-index: 1;
     }
-
-    .menu nav ul li a:hover{
-      color: white;
-    }
-
-    .menu nav ul li :hover{
-        color: white;
-      }
 
     #icon-menu{
         display: flex;
