@@ -510,12 +510,12 @@ main .contenedor .post h4{
 
 .fm-video .vjs-control-bar {
 	background: #F4F4F4;
-	color: black;
+	color: red;
 }
 
 .fm-video .vjs-play-progress,
 .fm-video .vjs-volume-level {
-    background: black;
+    background: red;
 }
 
 .fm-video .vjs-slider {
