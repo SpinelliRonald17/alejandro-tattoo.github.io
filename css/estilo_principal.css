@@ -75,7 +75,7 @@ header{
   
 .logo h1:hover:after{
     width: 100%;
-  } 
+} 
 
 /* Menu de interacion ir a */
 .menu{
@@ -175,16 +175,6 @@ header{
     background-repeat: no-repeat;
 }
 
-/* Fondo transprente sobre la imagen
-.container-cover:before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: rgba(241, 127, 127, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0; 
-}*/
 
 /* Contenido de informacion dentro de la img centrado y alineado*/
 .container-cover-info{
@@ -620,7 +610,7 @@ article img{
         width: 20px;
         display: inline-block;
         margin-right: 10px;
-        color: red;
+        color: white;
         z-index: 1;
     }
 
